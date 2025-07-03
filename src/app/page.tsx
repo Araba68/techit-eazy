@@ -1,11 +1,11 @@
 // app/page.tsx
-import Hero from '@/components/Hero';
-import WhatWeDo from '@/components/WhatWeDo';
-import WhyTechItEazy from '@/components/WhyTechItEazy';
-import Impact from '@/components/Impact';
-import SuccessStories from '@/components/SuccessStories';
-import Partners from '@/components/Partners';
-import Footer from '@/components/Footer';
+import Hero from '../components/Hero';
+import WhatWeDo from '../components/WhatWeDo';
+import WhyTechITEazy from '../components/WhyTechITEazy';
+import Impact from '../components/Impact';
+import SuccessStories from '../components/SuccessStories';
+import Partners from '../components/Partners';
+import Footer from '../components/Footer';
 
 import { fetchWhatWeDoEntries } from '@/lib/contentful';
 
@@ -24,7 +24,7 @@ export default async function Home() {
     <div className="bg-white text-gray-900">
       <Hero />
       <WhatWeDo services={services} />
-      <WhyTechItEazy />
+      <WhyTechITEazy />
       <Impact />
       <SuccessStories />
       <Partners />
