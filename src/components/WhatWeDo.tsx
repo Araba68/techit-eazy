@@ -1,9 +1,10 @@
 'use client';
 
 import Image from 'next/image';
+import React from 'react';
 import { FaGlobe, FaUsers, FaTools, FaRocket } from 'react-icons/fa';
 
-const iconMap: Record<string, JSX.Element> = {
+const iconMap: Record<string, React.ReactNode> = {
   globe: <FaGlobe className="text-3xl text-white" />,
   users: <FaUsers className="text-3xl text-white" />,
   tools: <FaTools className="text-3xl text-white" />,
